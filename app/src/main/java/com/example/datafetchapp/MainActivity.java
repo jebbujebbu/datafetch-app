@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         tv.setText("Data");
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "\"https://jebbujebbu.github.io/datafetch-app/data/data.json";
+        String url = "https://jebbujebbu.github.io/datafetch-app/data/data.json";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
             new Response.Listener<String>() {
