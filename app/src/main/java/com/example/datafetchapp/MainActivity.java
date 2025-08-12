@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
                         dataList.clear();
 
-                        //27. The date and name are in one row somehow (e.g. 27.5.2017 12:15:30, Matt Damon)
+                        // The date and name are in one row (e.g. 2025-07-01, Matt Damon)
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject jsonObject = jsonArray.getJSONObject(i);
                             String date = jsonObject.getString("pvm");
@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
                             dataList.add(date + ", " + name);
                         }
 
-                        // 27: COMMENT the line below to display the list using a simple ArrayAdapter.
-                        // 28: UNCOMMENT the line below to switch to the custom DateNameAdapter for displaying each date-name pair in two rows.
+                        // COMMENT the line below to display the list using a simple ArrayAdapter.
+                        // UNCOMMENT the line below to switch to the custom DateNameAdapter for displaying each date-name pair in two rows.
                         dnAdapter = new DateNameAdapter(MainActivity.this, jsonArray);
 
 
