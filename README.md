@@ -16,10 +16,10 @@ An Android app that fetches and displays date-name data from a JSON source, demo
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/jebbujebbu/datafetch-app.git
-    cd datafetch-app
-    ```
+```bash
+git clone https://github.com/jebbujebbu/datafetch-app.git
+cd datafetch-app
+```
 
 2. Open either the ``/app`` folder (original ListView version) or the ``/app-recyclerview`` folder (RecyclerView version) in Android Studio.
 
@@ -46,18 +46,18 @@ Ensure GitHub Pages is enabled in your repository settings to serve this JSON fi
 
 ## Example JSON Data Format
 
-    ```bash
-    [
-      {
-        "pvm": "27.5.2017 12:15:30",
-        "nimi": "Matt Damon"
-      },
-      {
-        "pvm": "28.5.2017 08:00:00",
-        "nimi": "Emma Watson"
-      }
-    ]
-    ```
+```json
+[
+  {
+    "pvm": "27.5.2017 12:15:30",
+    "nimi": "Matt Damon"
+  },
+  {
+    "pvm": "28.5.2017 08:00:00",
+    "nimi": "Emma Watson"
+  }
+]
+```
 
 ## About the Creator
 
