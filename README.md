@@ -46,7 +46,7 @@ Ensure GitHub Pages is enabled in your repository settings to serve this JSON fi
 
 ## Example JSON Data Format
 
-    ```json
+    ```bash
     [
       {
         "pvm": "27.5.2017 12:15:30",
